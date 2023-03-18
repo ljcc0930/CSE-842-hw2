@@ -1,4 +1,5 @@
-# Problem 1
+# CSE 842 Homework 2
+## Question 1
 
 ```
 python liujia45_hmm.py
@@ -73,7 +74,7 @@ B: [[0.         0.         0.5        0.25       0.         0.25
 
 For B, we only consider 7 words including ['science','all','well','like','but','red','dog'].
 
-# Problem 2
+## Question 2
 
 1. Run `python liujia45_nn.py` to get the results for one demo setting "embedding_dim=128, hidden_size=64, batch_size=32, epochs=1" and including all the features ("is_capitalized", "word_length", "contains_digit", "contains_hyphen", "is_title").
 2. My model architecture is a keras simpleRNN with an embedding layer in the beginning and a dense layer in the end. 
