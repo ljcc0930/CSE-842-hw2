@@ -37,14 +37,14 @@ In this report, we only consider 7 words, including 'science', 'all', 'well', 'l
 | ADP | 0.00 | 0.00 | 0.00 | 0.79 | 0.21 | 0.00 | 0.00 |
 | ADV | 0.00 | 0.23 | 0.77 | 0.00 | 0.00 | 0.00 | 0.00 |
 | CONJ | 0.00 | 0.00 | 0.00 | 0.00 | 1.00 | 0.00 | 0.00 |
-| DET | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 |
+| DET | 0.14 | 0.14 | 0.14 | 0.14 | 0.14 | 0.14 | 0.14 |
 | NOUN | 0.50 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.50 |
-| NUM | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 |
+| NUM | 0.14 | 0.14 | 0.14 | 0.14 | 0.14 | 0.14 | 0.14 |
 | PRT | 0.00 | 1.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 |
-| PRON | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 |
+| PRON | 0.14 | 0.14 | 0.14 | 0.14 | 0.14 | 0.14 | 0.14 |
 | VERB | 0.00 | 0.00 | 0.00 | 1.00 | 0.00 | 0.00 | 0.00 |
-| . | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 |
-| X | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 |
+| . | 0.14 | 0.14 | 0.14 | 0.14 | 0.14 | 0.14 | 0.14 |
+| X | 0.14 | 0.14 | 0.14 | 0.14 | 0.14 | 0.14 | 0.14 |
 
 ### Summary
 We have calculated the transition and emission probability matrices for an HMM using the news category of the Brown corpus with the universal tagset. The transition matrix (A) represents the probabilities of moving from one POS tag to another, while the emission matrix (B) represents the probabilities of observing a specific word with a particular POS tag.
